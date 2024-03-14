@@ -24,8 +24,8 @@ By default, the script will read the Bookmarks.plist from the standard location 
 ## Custom Usage
 The script can be modified to specify a different input file or output destination by changing the following parameters in the export_reading_list and write_reading_list_to_json function calls within the if __name__ == "__main__": block at the bottom of the script:
 
-* fname_bookmarks: Path to your Bookmarks.plist file.
-* fname_out: Desired path and name for the output JSON file.
+* **`fname_bookmarks`**: Path to your Bookmarks.plist file.
+* **`fname_out`**: Desired path and name for the output JSON file.
 
 ## Contributing
 Contributions to enhance this script, fix bugs, or improve documentation are welcome! Please feel free to submit a pull request or open an issue.
