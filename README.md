@@ -18,7 +18,7 @@ Before running the script, ensure you have Python installed on your system. The 
 1. Clone this repository or download the script to your local machine.
 2. Open a terminal and navigate to the directory containing the script.
 3. Run the script using Python:
-`python safari_reading_list_exporter.py`
+`python3 export_rl.py`
 By default, the script will read the Bookmarks.plist from the standard location `(~/Library/Safari/Bookmarks.plist)` and output the *safari_reading_list.json* in the current directory.
 
 ## Custom Usage
